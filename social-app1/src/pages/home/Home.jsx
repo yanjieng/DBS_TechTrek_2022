@@ -4,12 +4,10 @@ import "./home.css"
 
 export default function Home() {
     return (
-        <>
-            
+        <>  
             <div className="homeContainer">
                 <Sidebar />
                 <Feed />
-            
             </div>
         </>
     );
